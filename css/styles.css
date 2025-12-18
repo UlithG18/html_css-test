@@ -1,8 +1,20 @@
-/*----------------------------- General ----------------------------- */
+/* ----------------------------- Reusable ----------------------------- */
+:root {
+    --light-green: #4CAF4F;
+    --darkgray-text: #4D4D4D;
+    --lightgray-text: #717171;
+    --silver: #F5F7FA;
+    --font-main: 'Inter', sans-serif;
+}
+/* ------------- General ------------- */
+
 
 html {
     scroll-behavior: smooth;
     height: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
 
 body {
@@ -14,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    font-family: sans-serif;
+    font-family: var(--font-main);
 }
 
 div,
@@ -26,16 +38,18 @@ h2 {
     box-sizing: border-box;
 }
 
-/*----------------------------- Header ----------------------------- */
+/* ------------- Body ------------- */
+
+/* --- Header ---- */
 
 .header {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding: 1rem 6.25rem;
+    padding: 2rem 6.25rem;
 
     font-size: 1rem;
 }
@@ -54,19 +68,18 @@ h2 {
 }
 
 .nav_list {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
 
 .nav_links {
+    list-style-type: none;
     text-decoration: none;
-    color: black;
+    color: var(--darkgray-text);
 }
 
-.nav .nav_list .nav_items_list {
-    list-style-type: none;
-}
 
 .log_in {
     width: 100%;
@@ -81,11 +94,133 @@ h2 {
     border: 0;
     border-radius: 2.78px;
     padding: 1rem 1rem;
-
-
+    cursor: pointer;
 }
 
 .logo_container img {
     min-width: 12rem;
 }
+
+.btn_img {
+cursor: pointer;
+}
+
+
+/* --- Main --- */
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--silver);
+    background-size: auto;
+    gap: 6.5rem;
+    padding: 5rem 0;
+}
+
+
+/* --- Description Seccion --- */
+
+.des_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.20rem 6.25rem;
+}
+
+.des {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1.4rem;
+}
+
+.des_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.des_text h1 {
+    font-size: 4rem;
+    color: var(--darkgray-text);
+    font-weight: 600;
+    padding-bottom: 0.7rem;
+}
+
+.des_text h1 span {
+    color: var(--light-green);
+}
+
+.des_text p {
+    margin-top: 1rem;  
+    color: var(--lightgray-text); 
+}
+
+.btn_des {
+    width: 10em;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: #4CAF4F;
+    border: 0;
+    border-radius: 2.78px;
+    padding: 1rem 2rem;
+}
+
+.des_img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.des_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*.des_dots {
+    width: 100%;
+}
+
+.des_dots img {
+    justify-self: center;
+    align-self: center;
+} */
+
+/* --- Clients logos --- */
+
+.clients{
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 0 16rem;
+}
+
+.clients h2 {
+    color: var(--darkgray-text);
+    font-size: 2.5rem;
+}
+
+.clients p{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: var(--lightgray-text);
+}
+
+.clients_logo{
+    display: flex;
+    justify-content:space-between;
+    gap: 8.5rem;
+    padding: 1.6rem 0px;    
+}
+
+.logo_imgs {
+    min-width: 66px;
+}
+
+
 
