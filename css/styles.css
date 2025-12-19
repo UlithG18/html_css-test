@@ -367,4 +367,89 @@ main {
     text-align: start;
 }
 
+/* --------- Desing Section ---------*/
 
+.design {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    padding: 4.20rem 6.25rem;
+    margin-top: 42px;
+}
+
+.design img {
+    width: 30vw;
+    height: auto;
+}
+
+.design_des {
+    width: 661px;
+}
+
+.design_des h2 {
+    color: var(--darkgray-text);
+    font-size: 2rem;
+    width: 526px;
+}
+
+.design_des p {
+    color: var(--lightgray-text);
+    margin-top: 1rem;
+}
+
+/* --------- Customer ---------*/
+
+.customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 78px;
+    background-color: var(--silver);
+}
+
+.customer_des {
+    width: 748px;    
+}
+
+.customer_des p {
+    line-height: 1.5;
+    margin-bottom: 16px;
+    color: var(--lightgray-text);
+}
+
+.customer_des h2 {
+    color: var(--light-green);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.dragon {
+    color: #89939E;    
+}
+
+.customers_container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.customer_logos {
+    display: flex;
+    gap: 41px;
+}
+
+.customer_logos img {
+    width: 48px;
+}
+
+.customer_info a {
+    display: flex;     
+    text-decoration: none;
+    gap: 8px;
+}
+
+.customer_info a p {
+    color: var(--light-green);
+    margin: 0;    
+}
