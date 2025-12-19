@@ -183,16 +183,6 @@ main {
     height: auto;
 }
 
-/*.des_dots {
-    width: 100%;
-}
-
-.des_dots img {
-    justify-self: center;
-    align-self: center;
-} */
-
-/* --- Clients logos --- */
 
 .clients {
     text-align: center;
@@ -452,4 +442,181 @@ main {
 .customer_info a p {
     color: var(--light-green);
     margin: 0;    
+}
+
+/* ------ Blog  ------- */
+
+.caring_marketing {
+    text-align: center;    
+}
+
+.caring_marketing h2 {
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.caring_marketing_p {    
+    width: 628px;    
+    margin: 0 auto; 
+}
+
+.caring_marketing_container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 94.6px;
+}
+
+.caring_cards {
+    width: 368px;
+    position: relative;
+}
+
+.caring_cards_content {
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: var(--silver);
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px #ebe8e8;
+    width: 317px;    
+    position: absolute;
+    bottom: -150px;
+    left: 25px;
+}
+
+.caring_cards_content h3 {
+    font-size: 20px;
+    color: var(--darkgray-text);
+}
+
+.caring_cards_content a {
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 24px; 
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.caring_cards_content a p {
+    color: var(--light-green);    
+}
+
+
+/* ------------------------------ PELLENTESQUE ------------------------------ */ 
+
+.Lorem {
+    text-align: center;
+    background-color: var(--color-neutral-silver);
+    padding: 32px 0;
+}
+
+.Lorem a {
+    text-decoration: none;
+}
+
+.Lorem h2 {
+    font-size: 64px;
+    width: 670px;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+
+
+
+/* ------------------------------ FOOTER ------------------------------ */ 
+
+footer {
+    background-color: #263238;
+    display: flex;    
+    justify-content: center;
+    gap: 284px;
+    padding: 64px 0;
+}
+
+.copyright {
+    margin: 40px 0;
+}
+
+.copyright p {
+    color: var(--silver);
+}
+
+.copyright_p {
+    margin-bottom: 8px;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 16px;
+}
+
+.social_icons {
+    background-color: #3C474C;
+    padding: 7.47px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.social_icons:hover {
+    transform: translateY(-10px);
+    background-color: var(--light-green); 
+}
+
+.footer_navigation {
+    display: flex;
+    gap: 97px;
+}
+
+.footer_navigation h2 {
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: var(--silver);
+}
+
+.footer_links {
+    list-style: none;
+    font-size: 14px;    
+}
+
+.footer_item {
+    color: white;
+    text-decoration: none;
+    display: block;    
+    margin-bottom: 12px;  
+}
+
+.footer_container form {
+    display: flex;
+    align-items: center;
+}
+
+.footer_container form input{ 
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+    background-color: white;
+    color: #D9DBE1;
+  
+}
+
+.footer_container form input::placeholder {
+    color: #D9DBE1;
+}
+
+.stay_button {
+    padding: 8.5px;
+    background-color: white;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stay_button:hover {
+    background-color: var(--light-green);
 }
